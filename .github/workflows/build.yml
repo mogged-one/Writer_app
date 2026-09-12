@@ -24,7 +24,7 @@ jobs:
           channel: 'stable'
 
       - name: Generate Android project structure
-        run: flutter create . --platforms=android --project-name=writer_app --overwrite --suppress-analytics
+        run: flutter create . --platforms=android --project-name=writer_app
 
       - name: Install dependencies
         run: flutter pub get
